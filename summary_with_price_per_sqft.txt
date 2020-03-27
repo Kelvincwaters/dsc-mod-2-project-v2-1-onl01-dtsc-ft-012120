@@ -1,0 +1,35 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  price   R-squared:                       0.886
+Model:                            OLS   Adj. R-squared:                  0.886
+Method:                 Least Squares   F-statistic:                 1.114e+04
+Date:                Mon, 23 Mar 2020   Prob (F-statistic):               0.00
+Time:                        13:40:34   Log-Likelihood:                -5243.0
+No. Observations:               15762   AIC:                         1.051e+04
+Df Residuals:                   15750   BIC:                         1.060e+04
+Df Model:                          11                                         
+Covariance Type:            nonrobust                                         
+==================================================================================
+                     coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------
+Intercept         -1.4283      0.008   -182.754      0.000      -1.444      -1.413
+bedrooms          -0.0059      0.003     -1.711      0.087      -0.013       0.001
+bathrooms          0.0298      0.005      6.541      0.000       0.021       0.039
+sqft_living        0.7086      0.006    127.884      0.000       0.698       0.719
+sqft_lot          -0.0244      0.003     -8.840      0.000      -0.030      -0.019
+floors            -0.0258      0.003     -7.773      0.000      -0.032      -0.019
+waterfront         0.0660      0.003     22.151      0.000       0.060       0.072
+view               0.0242      0.003      7.638      0.000       0.018       0.030
+condition          0.0157      0.003      5.537      0.000       0.010       0.021
+grade              0.0350      0.005      7.394      0.000       0.026       0.044
+zipcode           -0.0114      0.003     -4.007      0.000      -0.017      -0.006
+price_per_sqft     0.0054   2.78e-05    194.638      0.000       0.005       0.005
+==============================================================================
+Omnibus:                    16477.760   Durbin-Watson:                   1.988
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):          6856641.677
+Skew:                           4.565   Prob(JB):                         0.00
+Kurtosis:                     104.769   Cond. No.                         878.
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

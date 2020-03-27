@@ -13,8 +13,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 import statsmodels.formula.api as sm
-
-import pandas.util.testing as tm
+import scipy.stats as stats
 
 import warnings
 warnings.filterwarnings('ignore')
